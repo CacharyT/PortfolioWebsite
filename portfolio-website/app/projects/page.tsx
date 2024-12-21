@@ -4,6 +4,8 @@ import project2 from '../../public/project-2.png'
 import project3 from '../../public/project-3.png'
 import project4 from '../../public/project-4.png'
 import project5 from '../../public/project-5.png'
+import project6 from '../../public/project-6.jpg'
+import project7 from '../../public/project-7.png'
 
 export default function Projects() {
     return (
@@ -83,6 +85,32 @@ export default function Projects() {
                         </h2>
                         <div className="btn-container mt-auto pt-2">
                             <a className="btn btn-color-2 project-btn border border-black rounded px-4 py-2" href='https://github.com/CacharyT/Pacman-Clone' target="_blank" rel="noopener noreferrer">
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                    <div className="details-container color-container border border-solid border-black p-4 flex flex-col w-full md:w-[calc(50%-0.5rem)] lg:w-[calc(33.33%-0.67rem)]">
+                        <div className="article-container">
+                            <Image src={project6} alt="Project 5" className="rounded-lg w-full h-auto" />
+                        </div>
+                        <h2 className="experience-sub-title project-title mt-2 text-lg font-medium">
+                            The Pack SSC Gym App
+                        </h2>
+                        <div className="btn-container mt-auto pt-2">
+                            <a className="btn btn-color-2 project-btn border border-black rounded px-4 py-2" href='https://github.com/tylermong/The-Pack' target="_blank" rel="noopener noreferrer">
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                    <div className="details-container color-container border border-solid border-black p-4 flex flex-col w-full md:w-[calc(50%-0.5rem)] lg:w-[calc(33.33%-0.67rem)]">
+                        <div className="article-container">
+                            <Image src={project7} alt="Project 5" className="rounded-lg w-full h-auto" />
+                        </div>
+                        <h2 className="experience-sub-title project-title mt-2 text-lg font-medium">
+                            Diabetes Analysis
+                        </h2>
+                        <div className="btn-container mt-auto pt-2">
+                            <a className="btn btn-color-2 project-btn border border-black rounded px-4 py-2" href='https://github.com/CacharyT/KDDM-Diabetes' target="_blank" rel="noopener noreferrer">
                                 Github
                             </a>
                         </div>
