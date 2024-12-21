@@ -37,21 +37,21 @@ export default function About() {
                 </h2>
                 <div className="flex flex-col gap-6">
                     <p className='font-semibold'>
-                        Hello, I'm Cachary Tolentino! You can also call me Rance.
-                        I'm from the Phillipines but now live in New Jersey.
+                        Hello, I&apos;m Cachary Tolentino! You can also call me Rance.
+                        I&apos;m from the Phillipines but now live in New Jersey.
                     </p>
                     <p className='font-semibold'>
-                        I'm currently a student in Stockton University studying Computer Science.
+                        I&apos;m currently a student in Stockton University studying Computer Science.
                         I also work as a student aid/grader for Professor Yitzhak. 
-                        I'm also an EOF mentor for incoming EOF students.
+                        I&apos;m also an EOF mentor for incoming EOF students.
                     </p>
                     <p className='font-semibold'>
-                        I've recently learned about the wonders of big data. 
+                        I&apos;ve recently learned about the wonders of big data. 
                         More specifically, about the insights that can be found from data.
                         Hence, my new found passion for data analytics.
                     </p>
                     <p className='font-semibold'>
-                        When I'm not coding or doing analysis, I'm often found in the gym or simply
+                        When I&apos;m not coding or doing analysis, I&apos;m often found in the gym or simply
                         reading some comics! I also do some game development on the side.
                     </p>
                 </div>
@@ -117,7 +117,7 @@ export default function About() {
                 <div className='flex w-full flex-col gap-8'>
                     <p className='font-semibold'>
                         In my undergraduate studies I specialized in Software Engineering related 
-                        skills. As such I am proficient in Java and Python. I've also learned 
+                        skills. As such I am proficient in Java and Python. I&apos;ve also learned 
                         NextJS which is accompanied by Typescript, React, Tailwind CSS, and many more. 
                         For game development I know Unity, Unreal, Pixel Art and C#/C++.
                         I am currently learning MySQL, Excel, Tableau, and Power BI for data analysis. 
