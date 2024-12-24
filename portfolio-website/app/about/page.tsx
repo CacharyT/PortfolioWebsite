@@ -52,7 +52,7 @@ export default function About() {
                     </p>
                     <p className='font-semibold'>
                         When I&apos;m not coding or doing analysis, I&apos;m often found in the gym or simply
-                        reading some comics! I also do some game development on the side.
+                        reading some comics! I also do some game development on the side. (P.S I really love Kirby!)
                     </p>
                 </div>
             </section>
