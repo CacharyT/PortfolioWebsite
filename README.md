@@ -1,5 +1,7 @@
 # Cachary's Portfolio Website
 
+![Website Image](images/website.png)
+
 ## Description
 
 This website contains all of Cachary's Portfolio ranging from **Education**, **Skills**, **Projects**, and **Experience**.
