@@ -1,7 +1,5 @@
 # Cachary's Portfolio Website
 
-Cachary's Portfolio Website
-
 ## Description
 
 This website contains all of Cachary's Portfolio ranging from **Education**, **Skills**, **Projects**, and **Experience**.
