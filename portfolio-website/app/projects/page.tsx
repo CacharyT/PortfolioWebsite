@@ -7,6 +7,7 @@ import project5 from '../../public/project-5.png'
 import project6 from '../../public/project-6.jpg'
 import project7 from '../../public/project-7.png'
 import project8 from '../../public/project-8.png'
+import project9 from '../../public/project-9.png'
 
 export default function Projects() {
     return (
@@ -125,6 +126,19 @@ export default function Projects() {
                         </h2>
                         <div className="btn-container mt-auto pt-2">
                             <a className="btn btn-color-2 project-btn border border-black rounded px-4 py-2" href='https://github.com/CacharyT/Nike-Global-Sales-Dashboard?tab=readme-ov-file' target="_blank" rel="noopener noreferrer">
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                    <div className="details-container color-container border border-solid border-black p-4 flex flex-col w-full md:w-[calc(50%-0.5rem)] lg:w-[calc(33.33%-0.67rem)]">
+                        <div className="article-container">
+                            <Image src={project9} alt="Project 5" className="rounded-lg w-full h-auto" />
+                        </div>
+                        <h2 className="experience-sub-title project-title mt-2 text-lg font-medium">
+                            Retail Stores Sales EDA
+                        </h2>
+                        <div className="btn-container mt-auto pt-2">
+                            <a className="btn btn-color-2 project-btn border border-black rounded px-4 py-2" href='https://github.com/CacharyT/Retail-Stores-Sales-EDA' target="_blank" rel="noopener noreferrer">
                                 Github
                             </a>
                         </div>
