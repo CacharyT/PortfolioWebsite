@@ -42,13 +42,13 @@ export default function About() {
                     </p>
                     <p className='font-semibold'>
                         I&apos;m currently a student in Stockton University studying Computer Science.
-                        I also work as a student aid/grader for Professor Yitzhak. 
-                        I&apos;m also an EOF mentor for incoming EOF students.
+                        I work as a student aid/grader for Professor Yitzhak. 
+                        I also work as a Front-Desk Assisant at the EOF office, while being an EOF mentor for incoming EOF students.
                     </p>
                     <p className='font-semibold'>
-                        I&apos;ve recently learned about the wonders of big data. 
-                        More specifically, about the insights that can be found from data.
-                        Hence, my new found passion for data analytics.
+                        After learning about big data in general, I have taken an interest in learning more about analytical skills.
+                        Therefore I&apos;ve started to work on data analyst specific projects. 
+                        I hope to bring actionable insights to businesses and personal projects.
                     </p>
                     <p className='font-semibold'>
                         When I&apos;m not coding or doing analysis, I&apos;m often found in the gym or simply
@@ -119,17 +119,29 @@ export default function About() {
                         In my undergraduate studies I specialized in Software Engineering related 
                         skills. As such I am proficient in Java and Python. I&apos;ve also learned 
                         NextJS which is accompanied by Typescript, React, Tailwind CSS, and many more. 
-                        For game development I know Unity, Unreal, Pixel Art and C#/C++.
-                        I am currently learning MySQL, Excel, Tableau, and Power BI for data analysis. 
+                        For game development I&apos;ve learned Unity, Unreal, Pixel Art and C#/C++.
+                        I am currently practicing MySQL, Excel, Tableau, and Power BI for data analysis. 
                     </p>
                     <ul className='flex flex-col gap-8 animated-list'>
+                    <li className='transition-opacity'>
+                            <a className="underline-offset-4 underline flex justify-between w-full px-3 py-2 -mx3 -my-2 no-underline" target="_blank" href="mailto:Yitzhak.Sharon@stockton.edu">
+                                <div className='flex items-center gap-4'>
+                                    <Image src={stocktonlogo} alt='stockton logo' width={48} height={48} />
+                                    <div className='flex flex-col gap-px'>
+                                        <h3 className='font-semibold'>Front-Desk Assistant</h3>
+                                        <p className='text-black'>Stockton University - EOF Office</p>
+                                    </div>
+                                </div>
+                                <time className='text-black'>2025 - Present</time>
+                            </a>
+                        </li>
                         <li className='transition-opacity'>
                             <a className="underline-offset-4 underline flex justify-between w-full px-3 py-2 -mx3 -my-2 no-underline" target="_blank" href="mailto:Yitzhak.Sharon@stockton.edu">
                                 <div className='flex items-center gap-4'>
                                     <Image src={stocktonlogo} alt='stockton logo' width={48} height={48} />
                                     <div className='flex flex-col gap-px'>
                                         <h3 className='font-semibold'>Student Aid/Grader</h3>
-                                        <p className='text-black'>Stockton University - Professor Yitzhak</p>
+                                        <p className='text-black'>Stockton University - Sharon Yitzhak</p>
                                     </div>
                                 </div>
                                 <time className='text-black'>2023 - Present</time>
