@@ -43,7 +43,7 @@ export default function About() {
                     <p className='font-semibold'>
                         I&apos;m currently a student in Stockton University studying Computer Science.
                         I work as a student aid/grader for Professor Yitzhak. 
-                        I also work as a Front-Desk Assisant at the EOF office, while being an EOF mentor for incoming EOF students.
+                        I also work as a Front-Desk Assistant at the EOF office, while being an EOF mentor for incoming EOF students.
                     </p>
                     <p className='font-semibold'>
                         After learning about big data in general, I have taken an interest in learning more about analytical skills.
