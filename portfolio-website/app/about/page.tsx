@@ -68,7 +68,7 @@ export default function About() {
 
                 <ul className='animated-list grid flex-frow grid-cols-1 gap-3 md:grid-cols-2'>
                     <li className='col-span-1 transition-opacity'>
-                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" href="mailto:tolenti2@go.stockton.edu">
+                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' href="mailto:tolenti2@go.stockton.edu">
                             <div className='flex items-center gap-3'>
                                 <span className='text-xl'>
                                     <Mail/>
