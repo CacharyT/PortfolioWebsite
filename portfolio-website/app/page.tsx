@@ -19,9 +19,9 @@ export default function Home() {
       />
 
       <p className="mb-4">
-        {`I am a current student at Stockton University and an aspiring data analyst. 
-        I am currently practicing my skills in working on Python, Excel, Power BI, Tableau and SQL. 
-        I am open to any sectors in the industry so that I can use my data analytical skills to find meaningful data.`}
+        {`I am a recent graduate of Stockton University and an aspiring data analyst. 
+        I have knowledge of using Python, Excel, Power BI, Tableau, and SQL for database management and data analysis. 
+        I am open to any sector in the industry so that I can use my data analytical skills to find meaningful data.`}
       </p>
       <Footer />
     </section>

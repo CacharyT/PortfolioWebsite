@@ -41,18 +41,16 @@ export default function About() {
                         I&apos;m from the Phillipines but now live in New Jersey.
                     </p>
                     <p className='font-semibold'>
-                        I&apos;m currently a student in Stockton University studying Computer Science.
-                        I work as a student aid/grader for Professor Yitzhak. 
-                        I also work as a Front-Desk Assistant at the EOF office, while being an EOF mentor for incoming EOF students.
+                        I&apos;m a recent graduate of Stockton University. I earned a Bachelor of Science in Computer Science with a GPA of 3.99.
                     </p>
                     <p className='font-semibold'>
-                        After learning about big data in general, I have taken an interest in learning more about analytical skills.
-                        Therefore I&apos;ve started to work on data analyst specific projects. 
+                        After learning about big data, I have taken an interest in learning more about data analysis.
+                        Since then I&apos;ve started to work on data analyst specific projects. 
                         I hope to bring actionable insights to businesses and personal projects.
                     </p>
                     <p className='font-semibold'>
                         When I&apos;m not coding or doing analysis, I&apos;m often found in the gym or simply
-                        reading some comics! I also do some game development on the side. (P.S I really love Kirby!)
+                        reading some comics! I also do some game development as a hobby. (P.S I really love Kirby!)
                     </p>
                 </div>
             </section>
@@ -66,9 +64,9 @@ export default function About() {
                     Contacts
                 </h2>
 
-                <ul className='animated-list grid flex-frow grid-cols-1 gap-3 md:grid-cols-2'>
+                <ul className='animated-list grid flex-row grid-cols-1 gap-3 md:grid-cols-2'>
                     <li className='col-span-1 transition-opacity'>
-                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' href="mailto:tolenti2@go.stockton.edu">
+                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" rel="noopener noreferrer" href="mailto:tolenti2@go.stockton.edu">
                             <div className='flex items-center gap-3'>
                                 <span className='text-xl'>
                                     <Mail/>
@@ -80,7 +78,7 @@ export default function About() {
                     </li>
 
                     <li className='col-span-1 transition-opacity'>
-                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" href="https://www.linkedin.com/in/cachary-tolentino-304796278/">
+                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cachary-tolentino-304796278/">
                             <div className='flex items-center gap-3'>
                                 <span className='text-xl'>
                                     <Linkedin/>
@@ -92,7 +90,7 @@ export default function About() {
                     </li>
 
                     <li className='col-span-1 transition-opacity'>
-                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" href="https://github.com/CacharyT">
+                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" rel="noopener noreferrer" href="https://github.com/CacharyT">
                             <div className='flex items-center gap-3'>
                                 <span className='text-xl'>
                                     <Github/>
@@ -119,8 +117,14 @@ export default function About() {
                         In my undergraduate studies I specialized in Software Engineering related 
                         skills. As such I am proficient in Java and Python. I&apos;ve also learned 
                         NextJS which is accompanied by Typescript, React, Tailwind CSS, and many more. 
+
                         For game development I&apos;ve learned Unity, Unreal, Pixel Art and C#/C++.
-                        I am currently practicing MySQL, Excel, Tableau, and Power BI for data analysis. 
+
+                        After self studying and creating projects that utilizes data analytical tools, I have become
+                        profecient in MySQL, Excel, Tableau, and Power BI for data analysis. 
+                        
+                        I've worked in multiple group projects as such I have confidence in my team working,
+                        communicationg, time managment, and project planning.
                     </p>
                     <ul className='flex flex-col gap-8 animated-list'>
                     <li className='transition-opacity'>
@@ -132,7 +136,7 @@ export default function About() {
                                         <p className='text-black'>Stockton University - EOF Office</p>
                                     </div>
                                 </div>
-                                <time className='text-black'>2025 - Present</time>
+                                <time className='text-black'>2025 - 2025</time>
                             </a>
                         </li>
                         <li className='transition-opacity'>
@@ -144,7 +148,7 @@ export default function About() {
                                         <p className='text-black'>Stockton University - Sharon Yitzhak</p>
                                     </div>
                                 </div>
-                                <time className='text-black'>2023 - Present</time>
+                                <time className='text-black'>2023 - 2025</time>
                             </a>
                         </li>
                         <li className='transition-opacity'>
@@ -156,7 +160,7 @@ export default function About() {
                                         <p className='text-black'>Stockton University - Naheel Naber</p>
                                     </div>
                                 </div>
-                                <time className='text-black'>2023 - Present</time>
+                                <time className='text-black'>2023 - 2025</time>
                             </a>
                         </li>
                     </ul>
