@@ -123,7 +123,7 @@ export default function About() {
                         After self studying and creating projects that utilizes data analytical tools, I have become
                         profecient in MySQL, Excel, Tableau, and Power BI for data analysis. 
                         
-                        I've worked in multiple group projects as such I have confidence in my team working,
+                        I&apos;ve worked in multiple group projects as such I have confidence in my team working,
                         communicationg, time managment, and project planning.
                     </p>
                     <ul className='flex flex-col gap-8 animated-list'>
