@@ -3,6 +3,7 @@ import about2 from '../../public/about2.jpg'
 import about3 from '../../public/about3.jpg'
 import about4 from '../../public/about4.jpg'
 import stocktonlogo from '../../public/stockton-logo.png'
+import betmakerslogo from '../../public/bet-makers-logo.jpg'
 import { Mail, MoveUpRight, Linkedin, Github } from "lucide-react"
 
 export default function About() {
@@ -121,13 +122,28 @@ export default function About() {
                         For game development I&apos;ve learned Unity, Unreal, Pixel Art and C#/C++.
 
                         After self studying and creating projects that utilizes data analytical tools, I have become
-                        profecient in MySQL, Excel, Tableau, and Power BI for data analysis. 
+                        proficient in MySQL, Excel, Tableau, and Power BI for data analysis. 
                         
                         I&apos;ve worked in multiple group projects as such I have confidence in my team working,
                         communicationg, time managment, and project planning.
+
+                        I currently work as a US gRDC Systems Operator for BetMakers Technology Group, 
+                        primarily handling various totes and system operations to process horse race betting.
                     </p>
                     <ul className='flex flex-col gap-8 animated-list'>
-                    <li className='transition-opacity'>
+                        <li className='transition-opacity'>
+                            <a className="underline-offset-4 underline flex justify-between w-full px-3 py-2 -mx3 -my-2 no-underline" target="_blank" href="mailto:kyle.loftus@betmakers.com">
+                                <div className='flex items-center gap-4'>
+                                    <Image src={betmakerslogo} alt='stockton logo' width={48} height={48} />
+                                    <div className='flex flex-col gap-px'>
+                                        <h3 className='font-semibold'>US gRDC Systems Operator</h3>
+                                        <p className='text-black'>BetMakers Technology Group - Kyle Loftus</p>
+                                    </div>
+                                </div>
+                                <time className='text-black'>2025 - Present</time>
+                            </a>
+                        </li>
+                        <li className='transition-opacity'>
                             <a className="underline-offset-4 underline flex justify-between w-full px-3 py-2 -mx3 -my-2 no-underline" target="_blank" href="mailto:Yitzhak.Sharon@stockton.edu">
                                 <div className='flex items-center gap-4'>
                                     <Image src={stocktonlogo} alt='stockton logo' width={48} height={48} />
