@@ -19,7 +19,7 @@ export default function Home() {
       />
 
       <p className="mb-4">
-        {`I am a recent graduate of Stockton University and an aspiring data analyst. 
+        {`I am a systems operator for Global Tote. I work with various systems and websites ensuring appropriate information for daily horse track betting. 
         I have knowledge of using Python, Excel, Power BI, Tableau, and SQL for database management and data analysis. 
         I am open to any sector in the industry so that I can use my data analytical skills to find meaningful data.`}
       </p>

@@ -18,7 +18,7 @@ export default function Projects() {
                 Projects
             </h1>
             <h2 className="text-sm text-gray-500">
-                Things that I&apos;ve made. 
+                Things that I&apos;ve made or have worked on. 
             </h2>
         </div>
 

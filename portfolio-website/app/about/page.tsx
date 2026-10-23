@@ -43,6 +43,7 @@ export default function About() {
                     </p>
                     <p className='font-semibold'>
                         I&apos;m a recent graduate of Stockton University. I earned a Bachelor of Science in Computer Science with a GPA of 3.99.
+                        I currently work as a systems operator for Global Tote.
                     </p>
                     <p className='font-semibold'>
                         After learning about big data, I have taken an interest in learning more about data analysis.
@@ -67,7 +68,7 @@ export default function About() {
 
                 <ul className='animated-list grid flex-row grid-cols-1 gap-3 md:grid-cols-2'>
                     <li className='col-span-1 transition-opacity'>
-                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" rel="noopener noreferrer" href="mailto:tolenti2@go.stockton.edu">
+                        <a className='underline-offset-4 underline inline-grid w-full rounded-lg bg-secondary p-4 no-underline transition-opacity' target="_blank" rel="noopener noreferrer" href="mailto:rancetolentino252@gmail.com">
                             <div className='flex items-center gap-3'>
                                 <span className='text-xl'>
                                     <Mail/>

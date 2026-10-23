@@ -21,6 +21,8 @@ Contributors names and contact info
 
 * 0.1
     * Implemented initial portfolio information
+* 0.2
+    * Updated resume and basic website information to reflect current emplyoment status and experience
 
 ## License
 
